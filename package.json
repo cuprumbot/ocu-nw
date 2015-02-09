@@ -1,0 +1,22 @@
+{
+  "name": "Sample",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.html",
+  "chromium-args": "--disable-gpu-vsync --ignore-gpu-blacklist --allow-file-access-from-files",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "window": { 
+	"title": "Hello Native apps", 
+	"toolbar": true, 
+	"frame": true, 
+	"width": 1280, 
+	"height": 800, 
+	"position": "center", 
+	"resizable": true, 
+	"icon":"sample.png"
+  },
+  "author": "",
+  "license": "ISC"
+}
